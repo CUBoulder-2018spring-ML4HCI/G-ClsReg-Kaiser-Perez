@@ -5,7 +5,7 @@ regression + classification project
 Matthew Kaiser and Robert Perez
 
 ### b)
-Use the Myo band to send data to wekinatr to train regression model which can tell how hard you hard flexing your arm.
+Use the Myo band to send data to wekinator to train regression model which can tell how hard you hard flexing your arm.
 
 ### c)
 For our project we used the MYO gesture armband, Processing, Wekinator and some online pictures for our output.
