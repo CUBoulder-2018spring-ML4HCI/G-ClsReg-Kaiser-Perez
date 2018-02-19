@@ -82,21 +82,7 @@ void draw() {
   
 }
 
-// ----------------------------------------------------------
 
-
-void sendOsc(int data[]) {
-  OscMessage msg = new OscMessage("/wek/inputs");
-  msg.add((int)data[1]); 
-  msg.add((int)data[2]);
-  msg.add((int)data[3]);
-  msg.add((int)data[4]);
-  msg.add((int)data[5]);
-  msg.add((int)data[6]);
-  msg.add((int)data[7]);
-  msg.add((int)data[8]);
-  oscP5.send(msg, dest);
-}
 
 void myoOnEmgData(Device myo, long timestamp, int[] data) {
   // println("Sketch: myoOnEmgData, device: " + myo.getId());
